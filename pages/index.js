@@ -1,5 +1,4 @@
 import Head from 'next/head';
-import Image from 'next/image';
 import styles from '../styles/Home.module.css';
 import NavBar from '../components/NavBar';
 import CodeBlock from '../components/CodeBlock';
@@ -14,8 +13,21 @@ export default function Home() {
       </Head>
       <div className={styles.container}>
         <NavBar />
-        <main>
-          <CodeBlock />
+        <main className={styles.main}>
+          <div className={styles.bio}>
+            <CodeBlock />
+            <div className={styles.contact}>
+              <button className={styles.btn}>Get in touch.</button>
+            </div>
+          </div>
+          <div className={styles.welcome}>
+            <h2>&lt;coder&gt;</h2>
+            <h1>
+              Using elegant code to craft
+              <span className='clean'>beautifully simple</span> web experiences.
+            </h1>
+            <h2>&lt;/coder&gt;</h2>
+          </div>
         </main>
       </div>
     </>
