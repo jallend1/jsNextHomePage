@@ -1,12 +1,17 @@
+import Head from 'next/head';
 import CodeBlock from '../components/CodeBlock';
 
 const About = () => {
-    return (
-        <div className="container">
+  return (
+    <>
+      <Head>
+        <title>Jason D. Allen | About</title>
+      </Head>
+      <div className='container'>
         <CodeBlock />
-
-        </div>
-    )
-}
+      </div>
+    </>
+  );
+};
 
 export default About;
