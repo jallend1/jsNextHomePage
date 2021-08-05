@@ -5,7 +5,11 @@ const NavBar = () => {
   const router = useRouter();
   return (
     <nav>
-      <p className={styles.logo}>Jason D. Allen</p>
+      <p className={styles.logo}>
+        <Link href='/'>
+          <a>Jason D. Allen</a>
+        </Link>
+      </p>
       <div>
         <ul className={styles.menu}>
           <li className={router.pathname === '/' ? styles.active : null}>

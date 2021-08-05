@@ -1,8 +1,9 @@
-.logo {
+.logo a {
   font-size: 30px;
   font-weight: bold;
-  color: #067bc2;
   margin: 0;
+  text-decoration: none;
+  color: #067bc2;
 }
 
 .menu {
@@ -18,7 +19,7 @@
   font-size: 16px;
   font-weight: bold;
   margin-left: 2em;
-  color: #067bc2;
+  color: #000;
 }
 
 .active {
