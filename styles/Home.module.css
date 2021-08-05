@@ -13,6 +13,15 @@
   min-width: 300px;
 }
 
+.subtitle {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  font-size: 0.75em;
+  letter-spacing: 0.75em;
+  color: slategray;
+}
+
 .contact {
   margin: auto;
   text-align: center;

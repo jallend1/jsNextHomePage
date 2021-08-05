@@ -18,12 +18,12 @@ export default function Home() {
           </div>
         </div>
         <div className={styles.welcome}>
-          <h2>&lt;coder&gt;</h2>
+          <h2 className={styles.subtitle}>&lt;coder&gt;</h2>
           <h1>
             Using elegant code to craft
             <span className='clean'>beautifully simple</span> web experiences.
           </h1>
-          <h2>&lt;/coder&gt;</h2>
+          <h2 className={styles.subtitle}>&lt;/coder&gt;</h2>
         </div>
       </main>
     </>
