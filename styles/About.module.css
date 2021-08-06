@@ -1,16 +1,4 @@
 .about {
   display: flex;
-  justify-content: space-between;
-}
-
-.gradient {
-  background: linear-gradient(0deg, #00000088 30%, #ffffff44 100%);
-}
-
-.gradient::after {
-  background: linear-gradient(0deg, #00000088 30%, #ffffff44 100%);
-}
-
-.gradient::before {
-  background: linear-gradient(0deg, #00000088 30%, #ffffff44 100%);
+  justify-content: space-around;
 }
