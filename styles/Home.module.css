@@ -1,7 +1,13 @@
 .main {
   width: 100%;
   display: grid;
-  grid-template-columns: 50% auto;
+  grid-template-columns: 40% auto;
+  min-height: 60vh;
+}
+
+.profileImage {
+  position: relative;
+  width: 100%;
 }
 
 .bio {
@@ -35,8 +41,4 @@
   border-radius: 25px;
   font-size: 1em;
   font-weight: bold;
-}
-
-.welcome {
-  padding: 0 2em;
 }

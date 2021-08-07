@@ -13,26 +13,27 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main className={styles.main}>
-        <div>
+        <div className={styles.profileImage}>
             <Image
               src={profilePic}
-              alt="Jason"      
+              alt="Jason"  
+              layout="fill"   
+              objectFit="contain"
             />
-          </div>
-        <div className={styles.welcome}>
+          </div>      
         <div className={styles.bio}>
           <CodeBlock />
           <div className={styles.contact}>
             <button className={styles.btn}>Get in touch.</button>
           </div>
         </div>
-          <h2 className={styles.subtitle}>&lt;coder&gt;</h2>
+          {/* <h2 className={styles.subtitle}>&lt;coder&gt;</h2>
           <h1>
             Using elegant code to craft
             <span className="clean"> beautifully simple</span> web experiences.
           </h1>
-          <h2 className={styles.subtitle}>&lt;/coder&gt;</h2>
-        </div>
+          <h2 className={styles.subtitle}>&lt;/coder&gt;</h2> */}
+
       </main>
     </>
   );
