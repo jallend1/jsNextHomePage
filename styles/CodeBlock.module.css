@@ -4,6 +4,7 @@
   font-size: 1.5em;
   padding: 2em;
   margin-bottom: 1.25em;
+  max-width: 600px;
 }
 
 .codeline {
