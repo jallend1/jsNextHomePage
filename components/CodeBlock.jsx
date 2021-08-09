@@ -1,4 +1,4 @@
-import styles from '../styles/CodeBlock.module.css';
+import styles from "../styles/CodeBlock.module.css";
 
 const CodeBlock = () => {
   return (
@@ -7,7 +7,7 @@ const CodeBlock = () => {
         <span className={styles.declarations}>const</span>
         <span className={styles.variables}> jasonAllen </span>
         <span className={styles.delimiter}> = </span>
-        <span className={styles.declarations}>{'{'}</span>
+        <span className={styles.declarations}>{"{"}</span>
       </div>
       <div className={styles.codeline}>
         <span className={styles.properties}>pronouns</span>
@@ -62,7 +62,7 @@ const CodeBlock = () => {
         <span className={styles.delimiter}>: </span>
         <span className={styles.variables}>[</span>
         <div className={styles.codeline}>
-          <span className={styles.declarations}>{'{'}</span>
+          <span className={styles.declarations}>{"{"}</span>
           <span className={styles.properties}>link</span>
           <span className={styles.delimiter}>: </span>
           <span className={styles.values}>&quot;LinkedIn&quot;</span>
@@ -70,11 +70,11 @@ const CodeBlock = () => {
           <span className={styles.properties}>link</span>
           <span className={styles.delimiter}>: </span>
           <span className={styles.values}>&quot;jallend1&quot;</span> */}
-          <span className={styles.declarations}>{'}'}</span>
+          <span className={styles.declarations}>{"}"}</span>
           <span className={styles.delimiter}>, </span>
         </div>
         <div className={styles.codeline}>
-          <span className={styles.declarations}>{'{'}</span>
+          <span className={styles.declarations}>{"{"}</span>
           <span className={styles.properties}>link</span>
           <span className={styles.delimiter}>: </span>
           <span className={styles.values}>&quot;Twitter&quot;</span>
@@ -82,11 +82,11 @@ const CodeBlock = () => {
           <span className={styles.properties}>link</span>
           <span className={styles.delimiter}>: </span>
           <span className={styles.values}>&quot;jallend1&quot;</span> */}
-          <span className={styles.declarations}>{'}'}</span>
+          <span className={styles.declarations}>{"}"}</span>
           <span className={styles.delimiter}>, </span>
         </div>
         <div className={styles.codeline}>
-          <span className={styles.declarations}>{'{'}</span>
+          <span className={styles.declarations}>{"{"}</span>
           <span className={styles.properties}>link</span>
           <span className={styles.delimiter}>: </span>
           <span className={styles.values}>&quot;GitHub&quot;</span>
@@ -94,12 +94,12 @@ const CodeBlock = () => {
           <span className={styles.properties}>link</span>
           <span className={styles.delimiter}>: </span>
           <span className={styles.values}>&quot;jallend1&quot;</span> */}
-          <span className={styles.declarations}>{'}'}</span>
+          <span className={styles.declarations}>{"}"}</span>
           <span className={styles.variables}>]</span>
         </div>
       </div>
       <div>
-        <span className={styles.declarations}>{'}'}</span>
+        <span className={styles.declarations}>{"}"}</span>
       </div>
     </div>
   );

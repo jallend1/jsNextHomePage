@@ -1,8 +1,8 @@
-import NavBar from '../components/NavBar';
+import NavBar from "../components/NavBar";
 
 const Layout = ({ children }) => {
   return (
-    <div className='container'>
+    <div className="container">
       <NavBar />
       {children}
     </div>

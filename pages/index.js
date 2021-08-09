@@ -1,8 +1,8 @@
 import Head from "next/head";
-import Image from 'next/image';
+import Image from "next/image";
 import styles from "../styles/Home.module.css";
 import CodeBlock from "../components/CodeBlock";
-import profilePic from '../public/images/Coffee.png';
+import profilePic from "../public/images/Coffee.png";
 
 export default function Home() {
   return (
@@ -14,26 +14,25 @@ export default function Home() {
       </Head>
       <main className={styles.main}>
         <div className={styles.profileImage}>
-            <Image
-              src={profilePic}
-              alt="Jason"  
-              layout="fill"   
-              objectFit="contain"
-            />
-          </div>      
+          <Image
+            src={profilePic}
+            alt="Jason having a coffee in Iceland"
+            layout="fill"
+            objectFit="contain"
+          />
+        </div>
         <div className={styles.bio}>
           <CodeBlock />
           <div className={styles.contact}>
             <button className={styles.btn}>Get in touch.</button>
           </div>
         </div>
-          {/* <h2 className={styles.subtitle}>&lt;coder&gt;</h2>
+        {/* <h2 className={styles.subtitle}>&lt;coder&gt;</h2>
           <h1>
             Using elegant code to craft
             <span className="clean"> beautifully simple</span> web experiences.
           </h1>
           <h2 className={styles.subtitle}>&lt;/coder&gt;</h2> */}
-
       </main>
     </>
   );
